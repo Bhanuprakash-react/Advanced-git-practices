@@ -21,3 +21,4 @@
     you changed code but forgot excatly what -- it will compares working directory with last staged version.
 
 **4. stage chages --> git add . (all files), git add file_name (only particular file).**
+This command will help us to pick the files whaever you completed, then those files will moves to staging area.

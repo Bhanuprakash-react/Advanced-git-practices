@@ -82,4 +82,21 @@
     4. git checkout -b git-practices --> older command to create and switch to new branch.
 
 7.  Merge commands:
-    1. git merge feature-x --> Merge feature-x into our current branch
+    1. git merge feature-x --> Merge feature-x into our current branch (branch-1 and branch-2 --> we need branch-1 code in branch-2 -->
+       lets switch into branch-2 and run the command git merge branch-1 --> it will merge branch-1 in branch-2).
+
+    2. git merge --abort --> It cancels merge in progress. (branch-1 and branch-2 both are working in same file...and did changes in same line
+       --> if we try to merge branch-1 in branch-2 --> it shows a merge conflicts --> then 1. if its possible to resolve that , you can
+       --> otherwise , if its seems like too clumsy just abort it so that branch-2 changes will wipe out from branch-1).
+
+8.  Remote commands:
+    1. git remote -v --> it will shows the connected remote repositories.
+
+    2. git remote add origin url --> it connects local repo to remote repository.
+
+    3. git remote remove origin --> removes a remote connection.(intially take pull from another repo --> run git remote -v to shows the connected repos or current repo --> you need to cut it run git remote remove origin (it does not delete the repo and code only disconnected with that repo --> for new connection run git remote add origin url --> then push our code safely to new repo.) )
+
+    4. git remote set-url origin url --> (if suppose you changed the repo name in github git-practices to advanced-git-practice --> before that existing url connected to local is git-practices not advanvced-git-practices (for check git remote -v) --> for this suitation just add git remote set-url origin url(adv-git-practices) --> it will connected the changed repo --> otherwise push and pull will not happen with existing repo.)
+
+9.  Push Commands:
+    1. git push - It uploads local commits to the remote repository.

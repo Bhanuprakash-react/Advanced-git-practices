@@ -100,5 +100,3 @@
 
 9.  Push Commands:
     1. git push - It uploads local commits to the remote repository.
-
-    Bhanu Prakash

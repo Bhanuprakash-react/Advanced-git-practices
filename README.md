@@ -99,4 +99,14 @@
     4. git remote set-url origin url --> (if suppose you changed the repo name in github git-practices to advanced-git-practice --> before that existing url connected to local is git-practices not advanvced-git-practices (for check git remote -v) --> for this suitation just add git remote set-url origin url(adv-git-practices) --> it will connected the changed repo --> otherwise push and pull will not happen with existing repo.)
 
 9.  Push Commands:
-    1. git push - It uploads local commits to the remote repository.
+    1. git push --> It uploads local commits to the remote repository.
+
+    2. git push origin main -->push main branch to github.
+
+    3. git push -u origin main -->pushes and sets upstream tracking branch.
+
+    4. git push --force --> Forcefully overwrites remote branch history.
+
+    5. git push --force-with-lease --> safer version of force push.
+
+    1st create a branch --> work and commit it --> use git push -u origin main (1st time) --> and then work - commit in same branch --> use git push.

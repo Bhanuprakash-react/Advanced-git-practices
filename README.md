@@ -123,3 +123,4 @@
 
     git fetch:
     
+    git fetch --> 2 developers working on same branch --> developer -2 completed his work and push it to dev-->developer-1 is not completed in the middle --> but developer needs to check what he did --> use git fetch --> to check the changes he did.

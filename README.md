@@ -120,3 +120,6 @@
 
     main(remote) -- dev(safety branch) --> developer-1 --> git clone url (dev) --> create another branch -->home-page(feature-branch)--
     --> develop the feature --> switch to dev branch --> take git pull from dev for latest updates --> sitch to feature branch and then merge dev into feature branch --> then push origin home-page (it will shows pull request in github).
+
+    git fetch:
+    

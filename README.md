@@ -122,5 +122,5 @@
     --> develop the feature --> switch to dev branch --> take git pull from dev for latest updates --> sitch to feature branch and then merge dev into feature branch --> then push origin home-page (it will shows pull request in github).
 
     git fetch:
-    
+
     git fetch --> 2 developers working on same branch --> developer -2 completed his work and push it to dev-->developer-1 is not completed in the middle --> but developer needs to check what he did --> use git fetch --> to check the changes he did.

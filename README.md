@@ -126,12 +126,16 @@
     git fetch --> 2 developers working on same branch --> developer -2 completed his work and push it to dev-->developer-1 is not completed in the middle --> but developer needs to check what he did --> use git fetch --> to check the changes he did.
 
 11. UNDO commands:
-
     1. git restore filename.js --> if we written some code in code editor, and if we dont want that before running any commands,
-    like git add . or git commit --> we run git restore filename.js  --> it will remove code from in our code editor.
+       like git add . or git commit --> we run git restore filename.js --> it will remove code from in our code editor.
 
-    2. git restore --staged filename.js --> if suppose we run the command git add . --> but we have to revert it from stagged to unstagged --> so then we should use git restore --staged filename.js. 
+    2. git restore --staged filename.js --> if suppose we run the command git add . --> but we have to revert it from stagged to unstagged --> so then we should use git restore --staged filename.js.
 
     3. git restore . --> Discard all uncommitted changes.
 
     4. git reset --soft HEAD~1 --> this command will help if we commit too quickly, to forget few lines of code--> so we need to add or change commit message.
+
+    5. git reset HEAD~1 or git reset mixed HEAD~1 --> git reser --soft HEAD~1 this command will undo the commit but its in stagged --> if our
+       code uncommit and unstagged at a time we should use the command git reset HEAD~1 or git reset mixed HEAD~1
+
+    6.

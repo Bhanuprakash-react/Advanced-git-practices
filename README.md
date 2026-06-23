@@ -138,4 +138,4 @@
     5. git reset HEAD~1 or git reset mixed HEAD~1 --> git reser --soft HEAD~1 this command will undo the commit but its in stagged --> if our
        code uncommit and unstagged at a time we should use the command git reset HEAD~1 or git reset mixed HEAD~1
 
-   
+    6. git revert commit-id --> this command will help you push the code to github but its not working properly if we use this command it will revert the changes. and remove the code. once revert it and push it another code.

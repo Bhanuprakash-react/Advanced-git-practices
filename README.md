@@ -138,4 +138,4 @@
     5. git reset HEAD~1 or git reset mixed HEAD~1 --> git reser --soft HEAD~1 this command will undo the commit but its in stagged --> if our
        code uncommit and unstagged at a time we should use the command git reset HEAD~1 or git reset mixed HEAD~1
 
-    6. sjfhwdlfksadf klsfjlsadkf klfjsdflskdf 
+   
